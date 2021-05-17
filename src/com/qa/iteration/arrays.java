@@ -28,6 +28,24 @@ public class arrays {
 			System.out.println(num);
 		}
 		
+		// Multi-Dimensional Array
+		String[][] namesArray = {{"Bob", "Fred"}, {"John", "Lori"}};
+		String fred = namesArray[0][1];
+		namesArray[0][1] = "Jamie";
+		System.out.println(">>> " + namesArray[0][1]);
+		
+		for (int i = 0; i < namesArray.length; i++) {
+			System.out.println(Arrays.toString(namesArray[i]));
+			for (int j = 0; j < namesArray[i].length; j++) {
+				System.out.println(namesArray[i][j]);
+			}
+		}
+		
+		for (String[] names : namesArray) {
+			for (String name : names) {
+				System.out.println(name);
+			}
+		}
 		
 		
 	}

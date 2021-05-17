@@ -64,16 +64,16 @@ public class splitNumbers {
 //				continue;
 //			}
 //		}
-		while(change > 0) {
-			int tenBills;
-			int fiveBills;
-			int oneBills;
-			
-			
-			if (change > 10) {
-				tenBills += 1;
-			}
-		}
+//		while(change > 0) {
+//			int tenBills;
+//			int fiveBills;
+//			int oneBills;
+//			
+//			
+//			if (change > 10) {
+////				tenBills += 1;
+//			}
+//		}
 		System.out.println(output);
 		
 	}
