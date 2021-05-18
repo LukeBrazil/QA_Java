@@ -14,6 +14,7 @@ public class arrayExercises {
 			System.out.println(nums[i]);
 		}
 		
+		int[] array = new int[10];
 
 		ArrayList<Integer> fillerArray = new ArrayList<Integer>();		
 		
@@ -28,8 +29,17 @@ public class arrayExercises {
 		
 		for (int i = 0; i < fillerArray.size(); i++) {
 			fillerArray.set(i, fillerArray.get(i) * 10);
+			System.out.println();
 		}
+		
 		System.out.println(">>>> " + fillerArray.toString());
+		
+		for (int i = 1; i < array.length; i++) {
+			array[i] = i * 10;
+			
+		}
+		
+		System.out.println(Arrays.toString(array));
 		
 	}
 	
