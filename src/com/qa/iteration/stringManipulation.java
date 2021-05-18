@@ -9,7 +9,7 @@ public class stringManipulation {
 //		Create two Strings where one string has a value of “yesterday it was raining” and the other string with a value of “today it is sunny”
 		String x = "Today it is Sunny";
 		String y = "Yesterday it was raining.";
-//		Concatenate both values, capitalise both strings and print out the result.
+//		Concatenate both values, capitalize both strings and print out the result.
 		String xy = x.toUpperCase() + ", " + y.toUpperCase();
 		System.out.println(xy);
 		// Now use the substring method to print out: `TODAY IT IS RAINING`
