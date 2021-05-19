@@ -60,8 +60,8 @@ public class arrayLists {
 		System.out.println(intArray.toString());
 		
 		// clone
-		ArrayList<Integer> newArray = new ArrayList<Integer>();
-		newArray.clone(intArray);
+		
+		
 		
 	}	
 
