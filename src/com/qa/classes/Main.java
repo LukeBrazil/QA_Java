@@ -17,17 +17,26 @@ public class Main {
 //			redwall.describe();
 //		}
 		
-//		Employee john = new Employee("John", 25, "Male", 56500.75);
-//		
-//		System.out.println(john.describe());
-//		System.out.println(john.calculateWeeklySalary());
+		Employee john = new Employee("John", 25, "Male", 56500.75);
+		
+		System.out.println(john.describe());
+		System.out.println(john.calculateWeeklySalary());
 		
 		Trainee tony = new Trainee("Tony", 17, "Male", 11789.98);
 		tony.addSubjects("Math");
 		tony.addSubjects("Literature");
 		tony.addSubjects("History");
-		System.out.println(tony.showSubjects());
+		System.out.println("Tony: " + tony.showSubjects());
 		
+		Trainee david = new Trainee("David", 17, "Male", 11089.98);
+		david.addSubjects("Com Sci");
+		david.addSubjects("Poetry");
+		david.addSubjects("Goblins");
+		System.out.println("David: " + david.showSubjects());
+		
+		Manager garry = new Manager("Gary", 32, "Male", 120000.69);
+		garry.addEmployee(david);
+		garry.showEmployees();
 	}
 
 }

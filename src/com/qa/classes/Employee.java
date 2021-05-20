@@ -11,8 +11,9 @@ public class Employee extends Person{
 		// TODO Auto-generated constructor stub
 	}
 	
+	
 	public String describe() {
-		return "Employee: " + this.name + "\n Age: " + this.age + "\n Gender: " + this.gender + "\n Weekly Pay: " + this.annualSalary;
+		return "Employee: " + this.name + "\n Age: " + this.age + "\n Gender: " + this.gender + "\n Annual Pay: " + this.annualSalary;
 	}
 	
 	public double calculateWeeklySalary() {
