@@ -30,7 +30,7 @@ public class arrays {
 		
 		// Multi-Dimensional Array
 		String[][] namesArray = {{"Bob", "Fred"}, {"John", "Lori"}};
-		String fred = namesArray[0][1];
+//		String fred = namesArray[0][1];
 		namesArray[0][1] = "Jamie";
 		System.out.println(">>> " + namesArray[0][1]);
 		

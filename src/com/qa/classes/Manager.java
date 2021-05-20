@@ -21,5 +21,9 @@ public class Manager extends Employee{
 		for (int i = 0; i < employeesUnderManager.size(); i++) {
 			System.out.println(employeesUnderManager.get(i));
 		}
+		
+		for(Object emp : employeesUnderManager) {
+			System.out.println(">>>>" + emp.toString());
+		}
 	}
 }
